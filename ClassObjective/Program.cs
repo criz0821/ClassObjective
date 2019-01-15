@@ -6,7 +6,11 @@ namespace ClassObjective
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            // Establishing variable name
+            string name = "Christopher Mejia";
+            Console.WriteLine("Press any key to continue...");
+            Console.WriteLine(name);
+            Console.ReadKey(true);
         }
     }
 }
